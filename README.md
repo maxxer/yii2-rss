@@ -4,10 +4,15 @@ Yii2 Framework extension to provide functionality for consuming RSS and Atom fee
 Installation
 ------------
 ```code
+php composer.phar require "shuguang/yii2-rss:dev-master"
+```
+or
+
+```code
 {
 	"require": 
 	{
-  		"shuguang/yii2-rss": "*"
+  		"shuguang/yii2-rss": "dev-master"
 	}
 }
 ```
