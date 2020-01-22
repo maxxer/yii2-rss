@@ -10,8 +10,8 @@ namespace yii\feed;
 use Yii;
 use yii\base\Component;
 use yii\base\ErrorException;
-use Laminas\Feed\Writer;
-use Laminas\Feed\Reader;
+use Laminas\Feed\Writer\Feed;
+use Laminas\Feed\Reader\Reader;
 
 /**
  * Class FeedDriver
