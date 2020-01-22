@@ -10,27 +10,27 @@ namespace yii\feed;
 use Yii;
 use yii\base\Component;
 use yii\base\ErrorException;
-use Zend\Feed\Writer\Feed;
-use Zend\Feed\Reader\Reader;
+use Laminas\Feed\Writer;
+use Laminas\Feed\Reader;
 
 /**
  * Class FeedDriver
- * The main class to wrap Zend Feed Extension
+ * The main class to wrap Laminas Feed Extension
  * @package yii\feed
  */
 class FeedDriver extends Component
 {
         /**
-         * Loads read Zend-feed component
-         * @return mixed object Zend\Feed\Reader component
+         * Loads read Laminas-feed component
+         * @return mixed object Laminas\Feed\Reader component
          */
         public function reader(){
             
             return new Reader;
         }
         /**
-         * Loads read Zend-feed component
-         * @return mixed object Zend\Feed\Writer component
+         * Loads read Laminas-feed component
+         * @return mixed object Laminas\Feed\Writer component
          */
         public function writer(){
             
